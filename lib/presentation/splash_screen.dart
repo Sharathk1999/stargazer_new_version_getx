@@ -22,7 +22,7 @@ class SplashScreenPage extends StatelessWidget {
           children: [
             const SizedBox(),
            const CircleAvatar(
-              radius: 90,
+              radius: 80,
               backgroundColor: bgColor,
               backgroundImage: AssetImage('assets/Stargazer_logo-bg.png'),
             ),
