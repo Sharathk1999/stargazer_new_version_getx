@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:music_app_getx/constands/constand.dart';
 import 'package:music_app_getx/controller/all_songs_controller.dart';
 import 'package:music_app_getx/controller/recent_played_controller.dart';
@@ -44,10 +45,10 @@ class RecentPlayedScreen extends StatelessWidget {
                           // print('emoty');
                           return SizedBox(
                             height: displayHeight,
-                            child: const Center(
+                            child:  Center(
                               child: Text(
-                                'nothing to show',
-                                style: TextStyle(color: Colors.white),
+                                'No recently yet 🤔',
+                                style: GoogleFonts.inconsolata(color: Colors.black,fontSize: 20),
                               ),
                             ),
                           );

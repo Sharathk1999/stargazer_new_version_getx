@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:music_app_getx/constands/constand.dart';
 import 'package:music_app_getx/controller/all_songs_controller.dart';
 import 'package:music_app_getx/controller/most_played_songs.dart';
@@ -44,10 +45,10 @@ class MostPlayedPage extends StatelessWidget {
                         if (mostPlayedController.mostPlayed.isEmpty) {
                           return SizedBox(
                             height: height,
-                            child: const Center(
+                            child:  Center(
                               child: Text(
-                                'nothing to show',
-                                style: TextStyle(color: Colors.white),
+                                'No mostly yet 🤔',
+                                style: GoogleFonts.inconsolata(color: Colors.black,fontSize: 20),
                               ),
                             ),
                           );

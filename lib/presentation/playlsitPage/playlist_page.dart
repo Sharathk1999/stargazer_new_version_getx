@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:music_app_getx/constands/constand.dart';
 import 'package:music_app_getx/controller/playlist_page_controller.dart';
 import 'package:music_app_getx/presentation/playlsitPage/playlist_songs_page.dart';
@@ -50,11 +51,11 @@ class PlayListPage extends StatelessWidget {
                   child: GetBuilder<PlayListPageController>(
                     builder: (controller) {
                       if (controller.playListTitle.isEmpty) {
-                        return const Center(
+                        return  Center(
                           child: Text(
-                            'No Playlists created.',
-                            style: TextStyle(color: Colors.white),
-                          ),
+                                'No Playlist yet 🤔',
+                                style: GoogleFonts.inconsolata(color: Colors.black,fontSize: 20),
+                              ),
                         );
                       }
                       
@@ -76,7 +77,7 @@ class PlayListPage extends StatelessWidget {
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(12),
                                     color: bgColor2,
-                                    image: DecorationImage(image: AssetImage('assets/recently_img.jpg'),fit: BoxFit.cover)
+                                    image:const DecorationImage(image: AssetImage('assets/recently_img.jpg'),fit: BoxFit.cover)
                                   ),
                                   child: Stack(
                                     children: [
