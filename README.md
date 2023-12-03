@@ -1,16 +1,38 @@
-# music_app_getx
+# Stargazer
 
-A new Flutter project.
+## Key Features
 
-## Getting Started
+- AudioPlayer and Asset Audio Player Integration
+- Favorite, Recent, and Most Played Tracks
+- Mini Player 
+- Local Data Storage with Hive 
+- Audio Controls:
+  - Next, Previous
+  - Fast Forward, Skip
+  - Repeat, Shuffle
+  - Progress bar, Stop, Pause, etc.
+- Playlist Management
 
-This project is a starting point for a Flutter application.
+### State Management
 
-A few resources to get you started if this is your first Flutter project:
+- GetX
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Database
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Hive
+
+### Architecture
+
+- MVC
+
+### Design
+
+- Figma
+
+### App Preview
+
+![App UI](/stargazer-poster.png)
+
+
+
+
